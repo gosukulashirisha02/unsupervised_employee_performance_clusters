@@ -57,7 +57,7 @@ h1 {
 </style>
 """, unsafe_allow_html=True)
 
-employee_performance=pd.read_csv(r"C:\Users\Gosukula Shirisha\OneDrive\Desktop\Unsupervised Project\ML_Report")
+employee_performance=pd.read_csv("ML_Report.csv")
 
 # st.title("👨‍💼 Employee Performance Clustering")
 
