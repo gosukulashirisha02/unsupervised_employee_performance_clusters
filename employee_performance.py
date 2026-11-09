@@ -57,7 +57,7 @@ h1 {
 </style>
 """, unsafe_allow_html=True)
 
-employee_performance=pd.read_csv("ML_Report.csv")
+employee_performance=pd.read_csv("ML_Report")
 
 # st.title("👨‍💼 Employee Performance Clustering")
 
